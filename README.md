@@ -21,7 +21,7 @@ However, not everyone has the expertise or time to create custom prompts. This i
 
 <br />
 
-# Write Script for Advertisement
+# Write Script for Advertisement/CMナレションを書く
 
 Here is a sample prompt if you want `ChatGPT` to write a script for video advertisement.
 
@@ -43,7 +43,8 @@ To implement this into an actual video, I will be using the following:
 
 <br />
 
-Here's the final video (click the image):
+Here's the final video ([click here](https://streamable.com/9cb5cr)):
 
-[![House CM](./assets/house-ad-screenshot.png)](https://streamable.com/9cb5cr)
+![House CM screenshot](./assets/house-ad-screenshot.png)
+
 
