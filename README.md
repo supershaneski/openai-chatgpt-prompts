@@ -39,7 +39,7 @@ To implement this into an actual video, I will be using the following:
 * [Pexels](https://pexels.com), the best free stock photos and videos
 * [FreeTTS](https://freets.com), awesome text to speech to MP3 converter
 * [Apple iMovie](https://www.apple.com/imovie), powerful macOS video editor
-* [Streamable], for super clean video publishing on the web
+* [Streamable](https://streamable.com/), for super clean video publishing on the web
 
 <br />
 
