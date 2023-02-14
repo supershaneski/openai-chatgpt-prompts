@@ -45,6 +45,12 @@ To implement this into an actual video, I will be using the following:
 
 Here's the final video ([click here](https://streamable.com/9cb5cr)):
 
-![House CM screenshot](./assets/house-ad-screenshot.png)
+![House CM screenshot](./assets/house-ad-screenshot.png "House CM screenshot")
 
 
+<br />
+<br />
+
+つづぐ
+
+<br />
