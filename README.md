@@ -25,12 +25,15 @@ However, not everyone has the expertise or time to create custom prompts. This i
 
 Here is a sample prompt if you want `ChatGPT` to write a script for video advertisement.
 
-```
-write a Japanese script for an advertisement film with a focus on storytelling for a real estate property management company named House with emphasis on being trustworthy and affordability.
-```
+<br />
+
+> `write a Japanese script for an advertisement film with a focus on storytelling for a real estate property management company named House with emphasis on being trustworthy and affordability.`
+
+<br />
 
 ![Write Script Prompt](./assets/write-script-for-ad-prompt.png "Write Script Prompt")
 
+<br />
 To implement this into an actual video, I will be using the following:
 
 * [Pexels](https://pexels.com), the best free stock photos and videos
