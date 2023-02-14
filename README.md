@@ -21,7 +21,7 @@ However, not everyone has the expertise or time to create custom prompts. This i
 
 <br />
 
-# Write Script for Advertisement/CMナレションを書く
+# 1. Write Script for Advertisement/CMナレションを書く
 
 Here is a sample prompt if you want `ChatGPT` to write a script for video advertisement.
 
@@ -43,12 +43,44 @@ To implement this into an actual video, I will be using the following:
 
 <br />
 
-Here's the final video ([click here](https://streamable.com/9cb5cr)):
+Here's the final video: [click here](https://streamable.com/9cb5cr).
 
+<br />
+
+## Video Credits
+
+
+Video by MART  PRODUCTION from Pexels: 
+* https://www.pexels.com/video/family-dancing-in-a-new-home-7347751/
+* https://www.pexels.com/video/family-just-moved-playing-with-the-boxes-7347587/
+
+Video by Kindel Media from Pexels: 
+* https://www.pexels.com/video/businesspeople-working-together-7652002/
+* https://www.pexels.com/video/businessmen-shaking-hands-7688001/
+
+Video by Mikhail Nilov from Pexels: 
+* https://www.pexels.com/video/a-woman-smiling-and-posing-in-the-camera-while-people-are-working-behind-her-8102924/
+* https://www.pexels.com/video/people-working-together-7683053/
+
+Video by Mikael Blomkvist from Pexels: 
+* https://www.pexels.com/video/man-and-a-woman-working-at-a-construction-site-8965436/
+
+Video by Ivan Samkov from Pexels: 
+* https://www.pexels.com/video/boy-giving-a-painting-woman-a-glass-of-water-to-drink-5799479/
+
+Video by cottonbro studio from Pexels: 
+* https://www.pexels.com/video/house-apartment-home-clean-4109343/
+
+Video by Tima Miroshnichenko from Pexels: 
+* https://www.pexels.com/video/man-using-smartphone-6474150/
+
+Video by Thirdman from Pexels: 
+* [https://www.pexels.com/video/two-women-working-together-7653223/
 
 <br />
 <br />
+<br />
 
-つづぐ
+More to come...
 
 <br />
