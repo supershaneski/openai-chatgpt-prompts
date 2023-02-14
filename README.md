@@ -39,4 +39,11 @@ To implement this into an actual video, I will be using the following:
 * [Pexels](https://pexels.com), the best free stock photos and videos
 * [FreeTTS](https://freets.com), awesome text to speech to MP3 converter
 * [Apple iMovie](https://www.apple.com/imovie), powerful macOS video editor
+* [Streamable], for super clean video publishing on the web
+
+<br />
+
+Here's the final video (click the image):
+
+[![House CM](./assets/house-ad-screenshot.png)](https://streamable.com/9cb5cr)
 
