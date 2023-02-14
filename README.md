@@ -29,7 +29,7 @@ Here is a sample prompt if you want `ChatGPT` to write a script for video advert
 write a Japanese script for an advertisement film with a focus on storytelling for a real estate property management company named House with emphasis on being trustworthy and affordability.
 ```
 
-![Write Script Prompt](./assets/write-scripts-for-ad-prompt.png "Write Script Prompt")
+![Write Script Prompt](./assets/write-script-for-ad-prompt.png "Write Script Prompt")
 
 To implement this into an actual video, I will be using the following:
 
