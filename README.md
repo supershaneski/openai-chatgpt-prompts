@@ -89,7 +89,7 @@ Video by Thirdman from Pexels:
 
 <br />
 
-# [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法
+# 2. [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法
 
 **Prompt:**
 > Write a summary of the email below, highlighting the key points and the sender’s intention. Then, generate three possible email responses that are polite, concise and relevant. The tone should be business-like as it will be used to process company correspondence.
