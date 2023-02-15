@@ -21,7 +21,7 @@ However, not everyone has the expertise or time to create custom prompts. This i
 
 <br />
 
-# 1. Content: Write Script for Advertisement/CMナレションを書く
+# 1. [Content Creation] Write Script for Advertisement/CMナレションを書く
 
 **Prompt:**
 > write a script for an advertisement film with a focus on storytelling for <Insert_Description_Here>.
@@ -30,17 +30,16 @@ However, not everyone has the expertise or time to create custom prompts. This i
 > write a `Japanese` script for an advertisement film with a focus on storytelling for `a real estate property management company named House with emphasis on being trustworthy and affordability`.
 
 **Output:**
-```
-「こんにちは。 House です。私たちは、あなたの家を守るためにあなたと一緒にいます。
+>「こんにちは。 House です。私たちは、あなたの家を守るためにあなたと一緒にいます。
+>
+> あなたは、家を所有することが夢ですが、それを管理することは大変なこともあります。時間の無駄な掃除や修理、テナントとのトラブルなど。ですが、私たち House はそんなことを心配することなく、あなたの家を最善の状態で保つことができます。
+>
+> 信頼性と手頃な価格。これが私たち House のモットーです。家を所有することに関するあなたの懸念をすべて解決することができます。
+>
+> あなたの家は私たちの責任です。私たち House と一緒に、安心して夢を追いかけてください。
+>
+> House. あなたの家を守るパートナーです。」
 
-あなたは、家を所有することが夢ですが、それを管理することは大変なこともあります。時間の無駄な掃除や修理、テナントとのトラブルなど。ですが、私たち House はそんなことを心配することなく、あなたの家を最善の状態で保つことができます。
-
-信頼性と手頃な価格。これが私たち House のモットーです。家を所有することに関するあなたの懸念をすべて解決することができます。
-
-あなたの家は私たちの責任です。私たち House と一緒に、安心して夢を追いかけてください。
-
-House. あなたの家を守るパートナーです。」
-```
 
 **Screenshot:**
 ![Write Script Prompt](./assets/write-script-for-ad-prompt.png "Write Script Prompt")
@@ -59,8 +58,7 @@ Here's the final video: [click here](https://streamable.com/9cb5cr).
 
 <br />
 
-## Video Credits
-
+**Video Credits:**
 
 Video by MART  PRODUCTION from Pexels: 
 * https://www.pexels.com/video/family-dancing-in-a-new-home-7347751/
@@ -88,6 +86,148 @@ Video by Tima Miroshnichenko from Pexels:
 
 Video by Thirdman from Pexels: 
 * [https://www.pexels.com/video/two-women-working-together-7653223/
+
+<br />
+
+# [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法
+
+**Prompt:**
+> Write a summary of the email below, highlighting the key points and the sender’s intention. Then, generate three possible email responses that are polite, concise and relevant. The tone should be business-like as it will be used to process company correspondence.
+> 
+> Email:
+> 
+> <Insert_Email_Here>.
+
+**Example Usage:**
+> Write a summary of the email below, highlighting the key points and the sender’s intention. Then, generate three possible email responses that are polite, concise and relevant. The tone should be business-like as it will be used to process company correspondence.
+>
+> Email:
+> 
+> Subject: Request for a meeting
+>
+> Hi John,
+>
+> I hope this email finds you well. I am writing to you on behalf of ABC Inc., a leading provider of cloud-based solutions for small and medium businesses. We are interested in exploring a potential partnership with your company, XYZ Ltd., as we believe our products and services can complement each other and create value for both parties.
+>
+> We would like to request a meeting with you to discuss this opportunity in more detail. Please let us know your availability for next week and the best way to contact you. We are flexible on the time and the format of the meeting, whether it is online or in person.
+>
+> We look forward to hearing from you soon and hope to establish a fruitful collaboration with you.
+>
+> Best regards,
+>
+> Jane Smith Business Development Manager ABC Inc.
+
+**Output:**
+> Summary: Jane Smith, the Business Development Manager of ABC Inc., is writing to John to request a meeting with him on behalf of her company. The purpose of the meeting is to explore a potential partnership between ABC Inc. and John's company, XYZ Ltd. They believe that their products and services can complement each other and create value for both parties.
+>
+> Key points:
+>
+> Jane is writing on behalf of ABC Inc.
+> * They are interested in a potential partnership with XYZ Ltd.
+> * They want to request a meeting to discuss the opportunity in more detail.
+> * They are flexible on the time and format of the meeting.
+>
+> Sender's intention: Jane is requesting a meeting with John to discuss a potential partnership between their companies.
+>
+> Possible responses:
+>
+> 1. Hi Jane,
+Thank you for your email and your interest in a potential partnership between our companies. I am available next week for a meeting to discuss this opportunity in more detail. An online meeting would be preferable for me. Could you please let me know the date and time that works best for you?
+Best regards,
+John
+>
+> 2. Hi Jane,
+Thanks for reaching out to me on behalf of ABC Inc. I appreciate your interest in exploring a potential partnership with our company. Unfortunately, I am not available next week, but I can offer a time the following week. Would that work for you? Also, an online meeting is more convenient for me.
+Best regards,
+John
+>
+> 3. Hi Jane,
+Thank you for your email and the interest you have expressed in a partnership with our company. I am available for a meeting next week, and I'm open to either an online or in-person format. Let me know what you think is best, and I'll schedule it on my calendar.
+Best regards,
+John
+
+
+<br />
+
+**Another Example Usage:**
+
+What if the email is in another language?
+
+> Write a summary of the email below, highlighting the key points and the sender’s intention. Then, generate three possible email responses that are polite, concise and relevant. The tone should be business-like as it will be used to process company correspondence.
+>
+> Email:
+>
+> 件名：ミーティングのご依頼
+>
+> ジョン様
+>
+> お元気でいらっしゃいますか。ABC社のビジネス開発マネージャーのジェーン・スミスと申します。ABC社は、中小企業向けのクラウドベースのソリューションを提供する業界のリーダーです。私たちは、XYZ社とのパートナーシップを検討したいと考えております。私たちの製品とサービスはお互いに補完し合い、双方に価値を創造できると信じております。
+> 
+> この機会について詳しくお話しできればと思いますので、ミーティングのご依頼をさせていただきます。来週のご都合とご連絡先をお知らせください。ミーティングの時間や形式は、オンラインでも対面でも構いませんので、柔軟に対応いたします。
+> 
+> 近日中にご返信いただけることを楽しみにしております。貴社との有意義な協力関係を築けることを願っております。
+>
+> 敬具
+>
+> ジェーン・スミス ビジネス開発マネージャー ABC社
+
+**Output:**
+> Summary: Jane Smith, the Business Development Manager of ABC Inc., is writing to John to request a meeting on behalf of her company. The purpose of the meeting is to explore a potential partnership between ABC Inc. and John's company, XYZ Ltd. They believe that their products and services can complement each other and create value for both parties.
+>
+> Key points:
+>
+> Jane is writing on behalf of ABC Inc.
+> * They are interested in a potential partnership with XYZ Ltd.
+> * They want to request a meeting to discuss the opportunity in more detail.
+> * They are flexible on the time and format of the meeting.
+>
+> Sender's intention: Jane is requesting a meeting with John to discuss a potential partnership between their companies.
+>
+> Possible responses:
+>
+> 1. ジェーン様へ
+この度はABC社と弊社のパートナーシップにご興味をいただき、誠にありがとうございます。来週のミーティングに参加することが可能です。オンラインでのミーティングが望ましいです。最適な日時をお知らせください。
+敬具
+ジョン
+>
+> 2. ジェーン様へ
+ABC社からのご連絡、ありがとうございます。今週はスケジュールがいっぱいで来週になりますが、ミーティングの時間を提供できます。オンラインでのミーティングを希望しております。よろしければ、来週いつがよろしいでしょうか。
+敬具
+ジョン
+>
+> 3. ジェーン様へ
+お返事が遅くなってしまい申し訳ありません。ABC社とのパートナーシップについてご興味をいただき、ありがとうございます。来週のミーティングに参加することができます。オンラインか対面、どちらでも構いません。ご都合のよろしい日時を教えていただければ、カレンダーに予定を追加します。
+敬具
+ジョン
+
+If you are an expat in Japan, working at a local company, this might be useful.
+But what if you are a Japanese? So let's update the prompt:
+
+> Write a summary of the email below, highlighting the key points and the sender’s intention. Then, generate three possible email responses that are polite, concise and relevant. The tone should be business-like as it will be used to process company correspondence. `All outputs should be in Japanese.`
+
+**Output:**
+> Summary:
+> >
+> ABC社のジェーン・スミスから、XYZ社とのパートナーシップを検討している旨を伝え、ミーティングのご依頼をしている。ミーティングの時間や形式は、オンラインでも対面でも柔軟に対応可能であると伝えている。
+>
+> Key points:
+>
+> * ABC社は中小企業向けのクラウドベースのソリューションを提供する業界のリーダー
+> * XYZ社とのパートナーシップを検討している
+> * ミーティングのご依頼をしており、時間や形式は柔軟に対応可能である
+>
+> Possible responses:
+>
+> 1. ご連絡いただきありがとうございます。来週の月曜日から水曜日のいずれかであればご都合がよろしいのですが、いかがでしょうか。ミーティングはオンラインで行いたいと思います。
+>
+> 2. お忙しい中、ご連絡いただきありがとうございます。来週は金曜日のみご都合がよろしいのですが、それでもよろしければお会いしてお話しできればと思います。ミーティングの形式は、対面でお願いいたします。
+>
+> 3. ご連絡いただきありがとうございます。誠に恐れ入りますが、来週は締め切りが迫っており、ミーティングに参加することができない可能性が高いため、再度ご連絡いただけますでしょうか。可能であれば、2週間後以降に調整可能な日程をお伺いできますでしょうか。
+
+
+<br />
+
+
 
 <br />
 <br />
