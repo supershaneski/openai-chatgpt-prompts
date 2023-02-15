@@ -21,16 +21,28 @@ However, not everyone has the expertise or time to create custom prompts. This i
 
 <br />
 
-# 1. Write Script for Advertisement/CMナレションを書く
+# 1. Content: Write Script for Advertisement/CMナレションを書く
 
-Here is a sample prompt if you want `ChatGPT` to write a script for video advertisement.
+**Prompt:**
+> write a script for an advertisement film with a focus on storytelling for <Insert_Description_Here>.
 
-<br />
+**Example Usage:**
+> write a `Japanese` script for an advertisement film with a focus on storytelling for `a real estate property management company named House with emphasis on being trustworthy and affordability`.
 
-> `write a Japanese script for an advertisement film with a focus on storytelling for a real estate property management company named House with emphasis on being trustworthy and affordability.`
+**Output:**
+```
+「こんにちは。 House です。私たちは、あなたの家を守るためにあなたと一緒にいます。
 
-<br />
+あなたは、家を所有することが夢ですが、それを管理することは大変なこともあります。時間の無駄な掃除や修理、テナントとのトラブルなど。ですが、私たち House はそんなことを心配することなく、あなたの家を最善の状態で保つことができます。
 
+信頼性と手頃な価格。これが私たち House のモットーです。家を所有することに関するあなたの懸念をすべて解決することができます。
+
+あなたの家は私たちの責任です。私たち House と一緒に、安心して夢を追いかけてください。
+
+House. あなたの家を守るパートナーです。」
+```
+
+**Screenshot:**
 ![Write Script Prompt](./assets/write-script-for-ad-prompt.png "Write Script Prompt")
 
 <br />
