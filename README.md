@@ -21,7 +21,9 @@ However, not everyone has the expertise or time to create custom prompts. This i
 
 <br />
 
-# 1. [Content Creation] Write Script for Advertisement/CMナレションを書く
+# 1. [Content Creation] Write Script for an Ad/CMナレションを書く
+
+Prompt from this video, [This entire Ad was written by ChatGPT (for ChatGPT)](https://www.youtube.com/watch?v=eTjpGBur7uE).
 
 **Prompt:**
 > write a script for an advertisement film with a focus on storytelling for <Insert_Description_Here>.
@@ -224,10 +226,42 @@ But what if you are a Japanese? So let's update the prompt:
 >
 > 3. ご連絡いただきありがとうございます。誠に恐れ入りますが、来週は締め切りが迫っており、ミーティングに参加することができない可能性が高いため、再度ご連絡いただけますでしょうか。可能であれば、2週間後以降に調整可能な日程をお伺いできますでしょうか。
 
-
 <br />
 
+# 3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なソーシャルメディア投稿を作成する
 
+**Prompt:**
+> Write a social media post for a business given the following details:
+Event: <Insert_Event>
+Dates: <Insert_Inclusive_Dates>
+Place: <Insert_Location>
+Type of Company/Shop: <Insert_Type_of_Business>
+Target Customers: <Insert_Target_Audience>
+Make the tone cheerful and appropriate for the target customers but make it remain business like. I want you to give me at least 3 examples that I can choose from.
+
+**Example Usage:**
+> Write a social media post for a business given the following details:
+Event: `Discount sale for selected products`
+Dates: `from April 1 to April 15, 2023`
+Place: `Maruyama branch shop`
+Type of Company/Shop: `cosmetics, health items, etc.`
+Target Customers: `office ladies, mothers`
+Make the tone cheerful and appropriate for the target customers but make it remain business like. I want you to give me at least 3 examples that I can choose from.
+
+**Output:**
+> Example 1:
+> 
+> Get ready to shine, office ladies and super moms! Our Maruyama branch shop is having a special discount sale from April 1 to April 15, 2023. Enjoy huge discounts on our amazing selection of cosmetics, health items, and more! Don't miss out on this opportunity to stock up on your favorites and treat yourself to some much-needed pampering. Visit us now at Maruyama branch shop!
+> 
+> 
+> Example 2:
+> 
+> Hey there, hardworking ladies! We know you deserve the best, which is why we're excited to announce our exclusive discount sale from April 1 to April 15, 2023, at our Maruyama branch shop. With amazing deals on cosmetics, health items, and more, this is your chance to indulge in some self-care and refresh your beauty routine. Come and see us at Maruyama branch shop and get ready to feel amazing!
+> 
+> 
+> Example 3:
+> 
+> Calling all office ladies and super moms! Our Maruyama branch shop is hosting a fantastic discount sale from April 1 to April 15, 2023. Enjoy incredible savings on our top-quality cosmetics, health items, and much more. Whether you're looking to refresh your beauty routine or stock up on essentials, we've got you covered. Head over to Maruyama branch shop and take advantage of this limited-time offer before it's gone!
 
 <br />
 <br />
