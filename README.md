@@ -228,25 +228,37 @@ But what if you are a Japanese? So let's update the prompt:
 
 <br />
 
-# 3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なソーシャルメディア投稿を作成する
+# 3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なSNS投稿を作成する
 
 **Prompt:**
 > Write a social media post for a business given the following details:
-Event: <Insert_Event>
-Dates: <Insert_Inclusive_Dates>
-Place: <Insert_Location>
-Type of Company/Shop: <Insert_Type_of_Business>
-Target Customers: <Insert_Target_Audience>
-Make the tone cheerful and appropriate for the target customers but make it remain business like. I want you to give me at least 3 examples that I can choose from.
+> 
+> Event: <Insert_Event>
+> 
+> Dates: <Insert_Inclusive_Dates>
+> 
+> Place: <Insert_Location>
+> 
+> Type of Company/Shop: <Insert_Type_of_Business>
+> 
+> Target Customers: <Insert_Target_Audience>
+> 
+> Make the tone cheerful and appropriate for the target customers but make it remain business like. I want you to give me at least 3 examples that I can choose from.
 
 **Example Usage:**
 > Write a social media post for a business given the following details:
-Event: `Discount sale for selected products`
-Dates: `from April 1 to April 15, 2023`
-Place: `Maruyama branch shop`
-Type of Company/Shop: `cosmetics, health items, etc.`
-Target Customers: `office ladies, mothers`
-Make the tone cheerful and appropriate for the target customers but make it remain business like. I want you to give me at least 3 examples that I can choose from.
+> 
+> Event: `Discount sale for selected products`
+> 
+> Dates: `from April 1 to April 15, 2023`
+> 
+> Place: `Maruyama branch shop`
+> 
+> Type of Company/Shop: `cosmetics, health items, etc.`
+> 
+> Target Customers: `office ladies, mothers`
+> 
+> Make the tone cheerful and appropriate for the target customers but make it remain business like. I want you to give me at least 3 examples that I can choose from.
 
 **Output:**
 > Example 1:
@@ -264,6 +276,63 @@ Make the tone cheerful and appropriate for the target customers but make it rema
 > Calling all office ladies and super moms! Our Maruyama branch shop is hosting a fantastic discount sale from April 1 to April 15, 2023. Enjoy incredible savings on our top-quality cosmetics, health items, and much more. Whether you're looking to refresh your beauty routine or stock up on essentials, we've got you covered. Head over to Maruyama branch shop and take advantage of this limited-time offer before it's gone!
 
 <br />
+
+
+# 4. [Sentiment Analysis] Analyze User Comment in Social Media  / SNSでユーザーコメントを分析します
+
+**Prompt:**
+> Based on the social media post below, do a sentiment analysis on the user comment provided: negative, positive or neutral, and show possible action to do: reply, delete or do nothing. If reply is needed, give an example of appropriate reply that is polite.
+>
+> Post:
+> <Insert_post_here>
+>
+> Comment:
+> <Insert_comment_here>
+
+
+**Example Usage:**
+
+Using our previous example, let say we have this post:
+> Get ready to shine, office ladies and super moms! Our Maruyama branch shop is having a special discount sale from April 1 to April 15, 2023. Enjoy huge discounts on our amazing selection of cosmetics, health items, and more! Don't miss out on this opportunity to stock up on your favorites and treat yourself to some much-needed pampering. Visit us now at Maruyama branch shop!
+
+And we received this comment:
+> The store in Maruyama looks dirty and the sales clerks were very unhelpful when I went there last week.
+> Some of the items are also full of dust and looks old.
+
+**Example Prompt:**
+
+> Based on the social media post below, do a sentiment analysis on the user comment provided: negative, positive or neutral, and show possible action to do: reply, delete or do nothing. If reply is needed, give an example of appropriate reply that is polite.
+>
+> Post:
+> 
+> Get ready to shine, office ladies and super moms! Our Maruyama branch shop is having a special discount sale from April 1 to April 15, 2023. Enjoy huge discounts on our amazing selection of cosmetics, health items, and more! Don't miss out on this opportunity to stock up on your favorites and treat yourself to some much-needed pampering. Visit us now at Maruyama branch shop!
+>
+> Comment:
+>
+> The store in Maruyama looks dirty and the sales clerks were very unhelpful when I went there last week.
+Some of the items are also full of dust and looks old.
+
+**Output:**
+> Sentiment analysis: negative
+>
+> Possible action: reply
+> 
+> Example of appropriate reply:
+> 
+> Dear valued customer, we apologize for the inconvenience you experienced during your recent visit to our Maruyama branch shop. We take all feedback seriously and would like to assure you that we will investigate this matter and take the necessary steps to improve our customer service and store cleanliness. We hope to have the opportunity to serve you better in the future. Thank you for your feedback.
+
+Let say we received another comment:
+> I am a super mom but so tired lol. I want to buy some makeup for my next date with my husband. Can't wait for the sale!
+
+**Output:**
+> Sentiment Analysis: Positive
+>
+> Possible Action: Do Nothing.
+>
+> Explanation: The user comment expresses excitement and anticipation for the upcoming sale, and they also mention their desire to purchase makeup for a special occasion. The comment is positive and shows a potential customer who is interested in taking advantage of the sale. There is no need for any action to be taken by the company, as the comment does not contain any negative feedback or issues that need to be addressed.
+
+
+
 <br />
 <br />
 
