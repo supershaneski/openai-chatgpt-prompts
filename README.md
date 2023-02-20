@@ -8,6 +8,18 @@ This repository is a collection of useful custom prompts for [OpenAI ChatGPT](ht
 
 <br />
 
+# Contents
+  * <a href="#motivation">Motivation</a>
+  * <a href="#write_script">1. [Content Creation] Write Script for an Ad/CMナレションを書く</a>
+  * <a href="#analyze_email">2. [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法</a>
+  * <a href="#write_post">3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なSNS投稿を作成する</a>
+  * <a href="#analyze_comment">4. [Sentiment Analysis] Analyze User Comment in Social Media  / SNSでユーザーコメントを分析します</a>
+</p>
+
+<br />
+
+<a id="motivation"></a>
+
 # Motivation
 
 The rise of `large language models` (LLMs) such as `ChatGPT` has made them indispensable in various industries. `Prompt engineering` is a crucial aspect of utilizing these models effectively. It involves crafting well-designed prompts to produce the desired output. With LLMs like `ChatGPT` generating similar results based on the prompt, this skill is becoming increasingly important for developers.
@@ -20,6 +32,9 @@ However, not everyone has the expertise or time to create custom prompts. This i
 しかし、すべての人がカスタムプロンプトを作成する専門知識や時間を持っていない場合もあります。ここでプロンプトリポジトリが役立つのです。これは、さまざまな目的のために簡単にアクセスできるプロンプトのコレクションを提供し、開発者がこれらを調整して望ましい結果を得る起点となります。このように、プロンプトエンジニアリングはよりアクセス可能でストリーミングされ、より効率的で効果的なLLMsの使用が可能となります。
 
 <br />
+
+
+<a id="write_script"></a>
 
 # 1. [Content Creation] Write Script for an Ad/CMナレションを書く
 
@@ -90,6 +105,8 @@ Video by Thirdman from Pexels:
 * [https://www.pexels.com/video/two-women-working-together-7653223/
 
 <br />
+
+<a id="analyze_email"></a>
 
 # 2. [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法
 
@@ -228,6 +245,9 @@ But what if you are a Japanese? So let's update the prompt:
 
 <br />
 
+
+<a id="write_post"></a>
+
 # 3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なSNS投稿を作成する
 
 **Prompt:**
@@ -277,6 +297,8 @@ But what if you are a Japanese? So let's update the prompt:
 
 <br />
 
+
+<a id="analyze_comment"></a>
 
 # 4. [Sentiment Analysis] Analyze User Comment in Social Media  / SNSでユーザーコメントを分析します
 
