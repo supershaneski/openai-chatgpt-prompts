@@ -10,10 +10,11 @@ This repository is a collection of useful custom prompts for [OpenAI ChatGPT](ht
 
 # Contents
   * <a href="#motivation">Motivation</a>
-  * <a href="#write_script">1. [Content Creation] Write Script for an Ad/CMナレションを書く</a>
+  * <a href="#write_script">1. [Content Creation] Write Script for an Ad / CMナレションを書く</a>
   * <a href="#analyze_email">2. [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法</a>
   * <a href="#write_post">3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なSNS投稿を作成する</a>
   * <a href="#analyze_comment">4. [Sentiment Analysis] Analyze User Comment in Social Media  / SNSでユーザーコメントを分析します</a>
+  * <a href="#references">References</a>
 </p>
 
 <br />
@@ -36,9 +37,9 @@ However, not everyone has the expertise or time to create custom prompts. This i
 
 <a id="write_script"></a>
 
-# 1. [Content Creation] Write Script for an Ad/CMナレションを書く
+# 1. [Content Creation] Write Script for an Ad / CMナレションを書く
 
-Prompt from this video, [This entire Ad was written by ChatGPT (for ChatGPT)](https://www.youtube.com/watch?v=eTjpGBur7uE).
+Prompt taken from this video, [This entire Ad was written by ChatGPT (for ChatGPT)](https://www.youtube.com/watch?v=eTjpGBur7uE).
 
 **Prompt:**
 > write a script for an advertisement film with a focus on storytelling for <Insert_Description_Here>.
@@ -353,11 +354,23 @@ Let say we received another comment:
 >
 > Explanation: The user comment expresses excitement and anticipation for the upcoming sale, and they also mention their desire to purchase makeup for a special occasion. The comment is positive and shows a potential customer who is interested in taking advantage of the sale. There is no need for any action to be taken by the company, as the comment does not contain any negative feedback or issues that need to be addressed.
 
-
+<br />
 
 <br />
 <br />
 
 More to come...
+
+<br />
+
+<a id="references"></a>
+
+# References
+
+The following resources can help in writing better prompts:
+
+* [Best practices for prompt engineering with OpenAI API](https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api)
+* [How do I create a good prompt](https://help.openai.com/en/articles/4936848-how-do-i-create-a-good-prompt)
+
 
 <br />
