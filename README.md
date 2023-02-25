@@ -14,6 +14,7 @@ This repository is a collection of useful custom prompts for [OpenAI ChatGPT](ht
   * <a href="#analyze_email">2. [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法</a>
   * <a href="#write_post">3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なSNS投稿を作成する</a>
   * <a href="#analyze_comment">4. [Sentiment Analysis] Analyze User Comment in Social Media  / SNSでユーザーコメントを分析します</a>
+  * <a href="#q&a-test">5. [Q&A] Act as Interviewer for a Personality Test / 性格検査の試験監督を務める</a>
   * <a href="#references">References</a>
 </p>
 
@@ -353,6 +354,147 @@ Let say we received another comment:
 > Possible Action: Do Nothing.
 >
 > Explanation: The user comment expresses excitement and anticipation for the upcoming sale, and they also mention their desire to purchase makeup for a special occasion. The comment is positive and shows a potential customer who is interested in taking advantage of the sale. There is no need for any action to be taken by the company, as the comment does not contain any negative feedback or issues that need to be addressed.
+
+<br />
+
+<a id="q&a-test"></a>
+
+# 5. [Q&A] Act as Interviewer for a Personality Test / 性格検査の試験監督を務める
+
+This can be useful as practice for job interviews.
+
+**Prompt:**
+> Act as an interviewer, asking me <Insert_Number_1> questions related to <Insert_Topic>, ask me questions one-by-one, and after the <Insert_Number_1> question, give me your assessment based on my answers. If there is no problem with my request, let us start and ask me the first question.
+
+**Example Usage:**
+
+> Act as an interviewer for me, asking me `10 questions` related to `personality test`, ask me questions one-by-one, and after the `10th question`, give me your assessment based on my answers. If there is no problem with my request, let us start and ask me the first question.
+
+**Output:**
+> ChatGPT: Certainly, I can help you with that. Let's begin!
+>
+> 1. What do you think are your top three strengths as a person?
+
+> Me: my creativity, focus in my goal and being naturally inquisitive
+
+> ChatGPT: Great, those are impressive strengths. Now, let's move on to the next question.
+>
+> 2. How do you usually handle difficult situations or conflicts in your life?
+
+> Me: i don't avoid them but try to resolve them as soon as possible
+
+> ChatGPT: That's a proactive approach to handling difficult situations. Let's move on to the next question.
+>
+> 3. Do you consider yourself an introvert or an extrovert? And why?
+
+> Me: i consider myself predominantly introvert though with certain people like my close friends, i can be very extrovert
+
+> ChatGPT: That's a common personality trait known as ambiversion. Let's proceed to the next question.
+>
+> 4. How do you usually deal with stress and pressure?
+
+> Me: they say a little pressure is good to put a man on his toe. i usually listen to music or meditate
+
+> ChatGPT: Those are great ways to manage stress and pressure. Let's move on to the next question.
+>
+> 5. Do you prefer to work independently or as part of a team?
+
+> Me: i prefer to work as a team but i can be very independent at times, doing all the work
+
+> ChatGPT: That shows that you can be flexible in your work style depending on the situation. Let's proceed to the next question.
+>
+> 6. How do you usually approach new tasks or challenges?
+
+> Me: i approach it by asking questions and clarifying my understanding if correct. i also research a lot about the new tasks or challenges
+
+> ChatGPT: That's a proactive approach to tackling new tasks and challenges. Let's move on to the next question.
+>
+> 7. What are some of your biggest weaknesses and how do you try to address them?
+
+> Me: i think my biggest weakness is sometimes i get too focus on my tasks that i tend to not give time to other things
+
+> ChatGPT: Thank you for sharing that. It's great that you recognize that weakness. Let's proceed to the next question.
+>
+> 8. How do you usually handle failure or setbacks in your life?
+
+> Me: i try to see if i can learn something from it. if not, i will just shrug it off. i believe that every new day is a new beginning.
+
+> ChatGPT: That's a positive and resilient attitude towards setbacks. Let's move on to the next question.
+>
+> 9. What are your long-term goals and how do you plan to achieve them?
+
+> Me: long term goal is to be good in my work that i can contribute something to society. to achieve it, i am constantly studying and learning new things
+
+> ChatGPT: That's a great long-term goal and a proactive approach to achieving it. Let's move on to the last question.
+>
+> 10. What do you think is the most important quality for a person to possess and why?
+
+> Me: integrity. to be able to stand firm knowing you did what is right
+
+> ChatGPT: That's a great answer. Now that we have gone through the ten questions, I can say that based on your responses, you seem to be a very focused, proactive, and self-aware individual. You have a positive and resilient attitude towards setbacks, and you value the importance of integrity. Overall, you appear to have a strong personality, and it's evident that you have a clear vision of what you want to achieve in life.
+
+**Another Example Usage:**
+
+Let us tweak the prompt a bit for trivia style quiz:
+
+> Act as `quiz master` for me, asking me `7 questions` related to `world history`, ask me questions one-by-one, and after the `7th question`, give me `my score` and your assessment based on my answers. If there is no problem with my request, let us start and ask me the first question.
+
+**Output:**
+
+> ChatGPT: Sure, I'd be happy to act as your quiz master! Here's your first question:
+>
+> 1. Who was the first president of the United States of America?
+Please provide your answer and we can move on to the next question.
+
+> Me: George Washington
+
+> ChatGPT: That is correct! Moving on to the next question:
+>
+> 2. Who was the first female Prime Minister of the United Kingdom?
+Please provide your answer and we can move on to the next question.
+
+> Me: Thatcher
+
+> ChatGPT: That is correct! Margaret Thatcher was the first female Prime Minister of the United Kingdom. Moving on to the next question:
+>
+> 3. Who wrote the novel "1984"?
+Please provide your answer and we can move on to the next question.
+
+> Me: Orwell
+
+> ChatGPT: That is correct! George Orwell wrote the novel "1984". Moving on to the next question:
+>
+> 4. Who was the leader of the Soviet Union during World War II?
+Please provide your answer and we can move on to the next question.
+
+> Me: Stalin
+
+> ChatGPT: Correct! Joseph Stalin was the leader of the Soviet Union during World War II. Moving on to the next question:
+>
+> 5. What was the name of the ship that Charles Darwin sailed on during his scientific expedition?
+Please provide your answer and we can move on to the next question.
+
+> Me: Beagle?
+
+> ChatGPT: That is correct! The ship that Charles Darwin sailed on during his scientific expedition was called the HMS Beagle. Moving on to the next question:
+>
+> 6. What was the name of the first satellite launched into space?
+Please provide your answer and we can move on to the final question.
+
+> Me: Sputnik!
+
+> ChatGPT: That is correct! The first satellite launched into space was named Sputnik.
+>
+> Great job! Here's your final question:
+>
+> 7. What was the name of the American general who commanded the Allied forces in Europe during World War II?
+Please provide your answer, and then I will provide your final score and assessment.
+
+> Me: Eisenhower
+
+> ChatGPT: That is correct! Dwight D. Eisenhower was the American general who commanded the Allied forces in Europe during World War II.
+>
+> Congratulations! You have answered all 7 questions correctly. Based on your answers, I would say you have a strong knowledge of world history. Well done!
 
 <br />
 
