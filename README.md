@@ -368,7 +368,7 @@ This can be useful as practice for job interviews.
 
 **Example Usage:**
 
-> Act as an interviewer for me, asking me `10 questions` related to `personality test`, ask me questions one-by-one, and after the `10th question`, give me your assessment based on my answers. If there is no problem with my request, let us start and ask me the first question.
+> Act as an interviewer, asking me `10 questions` related to `personality test`, ask me questions one-by-one, and after the `10th question`, give me your assessment based on my answers. If there is no problem with my request, let us start and ask me the first question.
 
 **Output:**
 > ChatGPT: Certainly, I can help you with that. Let's begin!
@@ -437,7 +437,7 @@ This can be useful as practice for job interviews.
 
 Let us tweak the prompt a bit for trivia style quiz:
 
-> Act as `quiz master` for me, asking me `7 questions` related to `world history`, ask me questions one-by-one, and after the `7th question`, give me `my score` and your assessment based on my answers. If there is no problem with my request, let us start and ask me the first question.
+> Act as `quiz master`, asking me `7 questions` related to `world history`, ask me questions one-by-one, and after the `7th question`, give me `my score` and your assessment based on my answers. If there is no problem with my request, let us start and ask me the first question.
 
 **Output:**
 
