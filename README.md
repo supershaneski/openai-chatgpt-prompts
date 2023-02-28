@@ -9,8 +9,6 @@ This repository is a collection of useful custom prompts for [OpenAI ChatGPT](ht
 <br />
 
 # Table of Contents
-- [OpenAI ChatGPT Prompt Collection (プロンプトコレ)](#openai-chatgpt-prompt-collection-プロンプトコレ)
-- [Table of Contents](#table-of-contents)
 - [Motivation](#motivation)
 - [1. \[Content Creation\] Write Script for an Ad / CMナレションを書く](#1-content-creation-write-script-for-an-ad--cmナレションを書く)
 - [2. \[Data Analysis\] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法](#2-data-analysis-extract-and-analyze-valuable-insights-from-email--メールデータから貴重な洞察を抽出分析する方法)
