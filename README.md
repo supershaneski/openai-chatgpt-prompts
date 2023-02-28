@@ -20,7 +20,7 @@ This repository is a collection of useful custom prompts for [OpenAI ChatGPT](ht
 
 <br />
 
-<a id="motivation"></a>
+<a id="motivation" name="motivation"></a>
 
 # Motivation
 
@@ -36,7 +36,7 @@ However, not everyone has the expertise or time to create custom prompts. This i
 <br />
 
 
-<a id="write_script"></a>
+<a id="write_script" name="write_script"></a>
 
 # 1. [Content Creation] Write Script for an Ad / CMナレションを書く
 
@@ -108,7 +108,7 @@ Video by Thirdman from Pexels:
 
 <br />
 
-<a id="analyze_email"></a>
+<a id="analyze_email" name="analyze_email"></a>
 
 # 2. [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法
 
@@ -248,7 +248,7 @@ But what if you are a Japanese? So let's update the prompt:
 <br />
 
 
-<a id="write_post"></a>
+<a id="write_post" name="write_post"></a>
 
 # 3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なSNS投稿を作成する
 
@@ -300,7 +300,7 @@ But what if you are a Japanese? So let's update the prompt:
 <br />
 
 
-<a id="analyze_comment"></a>
+<a id="analyze_comment" name="analyze_comment"></a>
 
 # 4. [Sentiment Analysis] Analyze User Comment in Social Media  / SNSでユーザーコメントを分析します
 
@@ -357,7 +357,7 @@ Let say we received another comment:
 
 <br />
 
-<a id="q&a-test"></a>
+<a id="q&a-test" name="q&a-test"></a>
 
 # 5. [Q&A] Act as Interviewer for a Personality Test / 性格検査の試験監督を務める
 
@@ -505,7 +505,7 @@ More to come...
 
 <br />
 
-<a id="references"></a>
+<a id="references" name="references"></a>
 
 # References
 
