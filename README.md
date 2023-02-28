@@ -8,14 +8,16 @@ This repository is a collection of useful custom prompts for [OpenAI ChatGPT](ht
 
 <br />
 
-# Contents
-  * <a href="#motivation">Motivation</a>
-  * <a href="#write_script">1. [Content Creation] Write Script for an Ad / CMナレションを書く</a>
-  * <a href="#analyze_email">2. [Data Analysis] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法</a>
-  * <a href="#write_post">3. [Content Creation] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なSNS投稿を作成する</a>
-  * <a href="#analyze_comment">4. [Sentiment Analysis] Analyze User Comment in Social Media  / SNSでユーザーコメントを分析します</a>
-  * <a href="#q&a-test">5. [Q&A] Act as Interviewer for a Personality Test / 性格検査の試験監督を務める</a>
-  * <a href="#references">References</a>
+# Table of Contents
+- [OpenAI ChatGPT Prompt Collection (プロンプトコレ)](#openai-chatgpt-prompt-collection-プロンプトコレ)
+- [Table of Contents](#table-of-contents)
+- [Motivation](#motivation)
+- [1. \[Content Creation\] Write Script for an Ad / CMナレションを書く](#1-content-creation-write-script-for-an-ad--cmナレションを書く)
+- [2. \[Data Analysis\] Extract and Analyze Valuable Insights from Email / メールデータから貴重な洞察を抽出・分析する方法](#2-data-analysis-extract-and-analyze-valuable-insights-from-email--メールデータから貴重な洞察を抽出分析する方法)
+- [3. \[Content Creation\] Create Engaging Social Media Post for Marketing / マーケティングのための魅力的なSNS投稿を作成する](#3-content-creation-create-engaging-social-media-post-for-marketing--マーケティングのための魅力的なsns投稿を作成する)
+- [4. \[Sentiment Analysis\] Analyze User Comment in Social Media  / SNSでユーザーコメントを分析します](#4-sentiment-analysis-analyze-user-comment-in-social-media---snsでユーザーコメントを分析します)
+- [5. \[Q\&A\] Act as Interviewer for a Personality Test / 性格検査の試験監督を務める](#5-qa-act-as-interviewer-for-a-personality-test--性格検査の試験監督を務める)
+- [References](#references)
 </p>
 
 <br />
